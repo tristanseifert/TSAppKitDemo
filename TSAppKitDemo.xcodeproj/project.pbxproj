@@ -7,34 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A1EE8121A2129D9003EECCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EE8111A2129D9003EECCA /* AppDelegate.m */; };
+		6A1EE8121A2129D9003EECCA /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EE8111A2129D9003EECCA /* TSAppDelegate.m */; };
 		6A1EE8141A2129D9003EECCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EE8131A2129D9003EECCA /* main.m */; };
 		6A1EE8161A2129D9003EECCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A1EE8151A2129D9003EECCA /* Images.xcassets */; };
 		6A1EE8191A2129D9003EECCA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A1EE8171A2129D9003EECCA /* MainMenu.xib */; };
-		6A1EE8251A2129D9003EECCA /* TSAppKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EE8241A2129D9003EECCA /* TSAppKitDemoTests.m */; };
+		6A1EE8361A212A70003EECCA /* TSAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1EE8331A212A65003EECCA /* TSAppKit.framework */; };
+		6A1EE8381A212A7C003EECCA /* TSAppKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1EE8331A212A65003EECCA /* TSAppKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A1EE83B1A212B33003EECCA /* TSPreferencesPanels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A1EE83A1A212B33003EECCA /* TSPreferencesPanels.plist */; };
+		6A1EE83F1A212B6B003EECCA /* TSPreferencePaneGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EE83D1A212B6B003EECCA /* TSPreferencePaneGeneral.m */; };
+		6A1EE8401A212B6B003EECCA /* TSPreferencePaneGeneral.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A1EE83E1A212B6B003EECCA /* TSPreferencePaneGeneral.xib */; };
+		6A1EE8441A212BDD003EECCA /* TSPreferencePaneAdvanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1EE8421A212BDD003EECCA /* TSPreferencePaneAdvanced.m */; };
+		6A1EE8451A212BDD003EECCA /* TSPreferencePaneAdvanced.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A1EE8431A212BDD003EECCA /* TSPreferencePaneAdvanced.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6A1EE81F1A2129D9003EECCA /* PBXContainerItemProxy */ = {
+		6A1EE8321A212A65003EECCA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6A1EE8031A2129D9003EECCA /* Project object */;
+			containerPortal = 6A1EE82E1A212A65003EECCA /* TSAppKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6ABE16131A11A7AE00165B3A;
+			remoteInfo = TSAppKit;
+		};
+		6A1EE8341A212A6C003EECCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1EE82E1A212A65003EECCA /* TSAppKit.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 6A1EE80A1A2129D9003EECCA;
-			remoteInfo = TSAppKitDemo;
+			remoteGlobalIDString = 6ABE16121A11A7AE00165B3A;
+			remoteInfo = TSAppKit;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A1EE8371A212A72003EECCA /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6A1EE8381A212A7C003EECCA /* TSAppKit.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6A1EE80B1A2129D9003EECCA /* TSAppKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSAppKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1EE80F1A2129D9003EECCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A1EE8101A2129D9003EECCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6A1EE8111A2129D9003EECCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A1EE8101A2129D9003EECCA /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		6A1EE8111A2129D9003EECCA /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
 		6A1EE8131A2129D9003EECCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A1EE8151A2129D9003EECCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6A1EE8181A2129D9003EECCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		6A1EE81E1A2129D9003EECCA /* TSAppKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSAppKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A1EE8231A2129D9003EECCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A1EE8241A2129D9003EECCA /* TSAppKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppKitDemoTests.m; sourceTree = "<group>"; };
+		6A1EE82E1A212A65003EECCA /* TSAppKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TSAppKit.xcodeproj; path = TSAppKit/TSAppKit.xcodeproj; sourceTree = "<group>"; };
+		6A1EE83A1A212B33003EECCA /* TSPreferencesPanels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TSPreferencesPanels.plist; sourceTree = "<group>"; };
+		6A1EE83C1A212B6B003EECCA /* TSPreferencePaneGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPreferencePaneGeneral.h; sourceTree = "<group>"; };
+		6A1EE83D1A212B6B003EECCA /* TSPreferencePaneGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPreferencePaneGeneral.m; sourceTree = "<group>"; };
+		6A1EE83E1A212B6B003EECCA /* TSPreferencePaneGeneral.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSPreferencePaneGeneral.xib; sourceTree = "<group>"; };
+		6A1EE8411A212BDD003EECCA /* TSPreferencePaneAdvanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPreferencePaneAdvanced.h; sourceTree = "<group>"; };
+		6A1EE8421A212BDD003EECCA /* TSPreferencePaneAdvanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPreferencePaneAdvanced.m; sourceTree = "<group>"; };
+		6A1EE8431A212BDD003EECCA /* TSPreferencePaneAdvanced.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSPreferencePaneAdvanced.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6A1EE81B1A2129D9003EECCA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6A1EE8361A212A70003EECCA /* TSAppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +84,10 @@
 		6A1EE8021A2129D9003EECCA = {
 			isa = PBXGroup;
 			children = (
+				6A1EE82E1A212A65003EECCA /* TSAppKit.xcodeproj */,
+				6A1EE8391A212B1F003EECCA /* Preferences */,
 				6A1EE80D1A2129D9003EECCA /* TSAppKitDemo */,
-				6A1EE8211A2129D9003EECCA /* TSAppKitDemoTests */,
+				6A1EE80E1A2129D9003EECCA /* Supporting Files */,
 				6A1EE80C1A2129D9003EECCA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				6A1EE80B1A2129D9003EECCA /* TSAppKitDemo.app */,
-				6A1EE81E1A2129D9003EECCA /* TSAppKitDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,11 +103,9 @@
 		6A1EE80D1A2129D9003EECCA /* TSAppKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6A1EE8101A2129D9003EECCA /* AppDelegate.h */,
-				6A1EE8111A2129D9003EECCA /* AppDelegate.m */,
-				6A1EE8151A2129D9003EECCA /* Images.xcassets */,
+				6A1EE8101A2129D9003EECCA /* TSAppDelegate.h */,
+				6A1EE8111A2129D9003EECCA /* TSAppDelegate.m */,
 				6A1EE8171A2129D9003EECCA /* MainMenu.xib */,
-				6A1EE80E1A2129D9003EECCA /* Supporting Files */,
 			);
 			path = TSAppKitDemo;
 			sourceTree = "<group>";
@@ -88,27 +113,35 @@
 		6A1EE80E1A2129D9003EECCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6A1EE8151A2129D9003EECCA /* Images.xcassets */,
 				6A1EE80F1A2129D9003EECCA /* Info.plist */,
 				6A1EE8131A2129D9003EECCA /* main.m */,
 			);
 			name = "Supporting Files";
+			path = TSAppKitDemo;
 			sourceTree = "<group>";
 		};
-		6A1EE8211A2129D9003EECCA /* TSAppKitDemoTests */ = {
+		6A1EE82F1A212A65003EECCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A1EE8241A2129D9003EECCA /* TSAppKitDemoTests.m */,
-				6A1EE8221A2129D9003EECCA /* Supporting Files */,
+				6A1EE8331A212A65003EECCA /* TSAppKit.framework */,
 			);
-			path = TSAppKitDemoTests;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		6A1EE8221A2129D9003EECCA /* Supporting Files */ = {
+		6A1EE8391A212B1F003EECCA /* Preferences */ = {
 			isa = PBXGroup;
 			children = (
-				6A1EE8231A2129D9003EECCA /* Info.plist */,
+				6A1EE83A1A212B33003EECCA /* TSPreferencesPanels.plist */,
+				6A1EE83C1A212B6B003EECCA /* TSPreferencePaneGeneral.h */,
+				6A1EE83D1A212B6B003EECCA /* TSPreferencePaneGeneral.m */,
+				6A1EE83E1A212B6B003EECCA /* TSPreferencePaneGeneral.xib */,
+				6A1EE8411A212BDD003EECCA /* TSPreferencePaneAdvanced.h */,
+				6A1EE8421A212BDD003EECCA /* TSPreferencePaneAdvanced.m */,
+				6A1EE8431A212BDD003EECCA /* TSPreferencePaneAdvanced.xib */,
 			);
-			name = "Supporting Files";
+			name = Preferences;
+			path = TSAppKitDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,33 +154,17 @@
 				6A1EE8071A2129D9003EECCA /* Sources */,
 				6A1EE8081A2129D9003EECCA /* Frameworks */,
 				6A1EE8091A2129D9003EECCA /* Resources */,
+				6A1EE8371A212A72003EECCA /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6A1EE8351A212A6C003EECCA /* PBXTargetDependency */,
 			);
 			name = TSAppKitDemo;
 			productName = TSAppKitDemo;
 			productReference = 6A1EE80B1A2129D9003EECCA /* TSAppKitDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6A1EE81D1A2129D9003EECCA /* TSAppKitDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6A1EE82B1A2129D9003EECCA /* Build configuration list for PBXNativeTarget "TSAppKitDemoTests" */;
-			buildPhases = (
-				6A1EE81A1A2129D9003EECCA /* Sources */,
-				6A1EE81B1A2129D9003EECCA /* Frameworks */,
-				6A1EE81C1A2129D9003EECCA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6A1EE8201A2129D9003EECCA /* PBXTargetDependency */,
-			);
-			name = TSAppKitDemoTests;
-			productName = TSAppKitDemoTests;
-			productReference = 6A1EE81E1A2129D9003EECCA /* TSAppKitDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -160,10 +177,6 @@
 				TargetAttributes = {
 					6A1EE80A1A2129D9003EECCA = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					6A1EE81D1A2129D9003EECCA = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 6A1EE80A1A2129D9003EECCA;
 					};
 				};
 			};
@@ -178,28 +191,39 @@
 			mainGroup = 6A1EE8021A2129D9003EECCA;
 			productRefGroup = 6A1EE80C1A2129D9003EECCA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6A1EE82F1A212A65003EECCA /* Products */;
+					ProjectRef = 6A1EE82E1A212A65003EECCA /* TSAppKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6A1EE80A1A2129D9003EECCA /* TSAppKitDemo */,
-				6A1EE81D1A2129D9003EECCA /* TSAppKitDemoTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6A1EE8331A212A65003EECCA /* TSAppKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TSAppKit.framework;
+			remoteRef = 6A1EE8321A212A65003EECCA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6A1EE8091A2129D9003EECCA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1EE8451A212BDD003EECCA /* TSPreferencePaneAdvanced.xib in Resources */,
+				6A1EE8401A212B6B003EECCA /* TSPreferencePaneGeneral.xib in Resources */,
 				6A1EE8161A2129D9003EECCA /* Images.xcassets in Resources */,
 				6A1EE8191A2129D9003EECCA /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6A1EE81C1A2129D9003EECCA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6A1EE83B1A212B33003EECCA /* TSPreferencesPanels.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,26 +234,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1EE83F1A212B6B003EECCA /* TSPreferencePaneGeneral.m in Sources */,
+				6A1EE8441A212BDD003EECCA /* TSPreferencePaneAdvanced.m in Sources */,
 				6A1EE8141A2129D9003EECCA /* main.m in Sources */,
-				6A1EE8121A2129D9003EECCA /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6A1EE81A1A2129D9003EECCA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A1EE8251A2129D9003EECCA /* TSAppKitDemoTests.m in Sources */,
+				6A1EE8121A2129D9003EECCA /* TSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6A1EE8201A2129D9003EECCA /* PBXTargetDependency */ = {
+		6A1EE8351A212A6C003EECCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6A1EE80A1A2129D9003EECCA /* TSAppKitDemo */;
-			targetProxy = 6A1EE81F1A2129D9003EECCA /* PBXContainerItemProxy */;
+			name = TSAppKit;
+			targetProxy = 6A1EE8341A212A6C003EECCA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -343,42 +361,6 @@
 			};
 			name = Release;
 		};
-		6A1EE82C1A2129D9003EECCA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TSAppKitDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSAppKitDemo.app/Contents/MacOS/TSAppKitDemo";
-			};
-			name = Debug;
-		};
-		6A1EE82D1A2129D9003EECCA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TSAppKitDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSAppKitDemo.app/Contents/MacOS/TSAppKitDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -396,14 +378,6 @@
 			buildConfigurations = (
 				6A1EE8291A2129D9003EECCA /* Debug */,
 				6A1EE82A1A2129D9003EECCA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		6A1EE82B1A2129D9003EECCA /* Build configuration list for PBXNativeTarget "TSAppKitDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6A1EE82C1A2129D9003EECCA /* Debug */,
-				6A1EE82D1A2129D9003EECCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

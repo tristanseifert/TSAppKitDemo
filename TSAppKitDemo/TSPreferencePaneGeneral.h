@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TSPreferencePaneGeneral.h
 //  TSAppKitDemo
 //
 //  Created by Tristan Seifert on 11/22/14.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
+@interface TSPreferencePaneGeneral : NSViewController
 
 @end
-

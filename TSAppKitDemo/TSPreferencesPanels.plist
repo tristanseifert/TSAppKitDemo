@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>saveState</key>
+	<false/>
+	<key>panels</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>General</string>
+			<key>icon</key>
+			<string>NSImageNamePreferencesGeneral</string>
+			<key>class</key>
+			<string>TSPreferencePaneGeneral</string>
+			<key>identifier</key>
+			<string>general</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Advanced</string>
+			<key>icon</key>
+			<string>IconSliders</string>
+			<key>class</key>
+			<string>TSPreferencePaneAdvanced</string>
+			<key>identifier</key>
+			<string>advanced</string>
+		</dict>
+	</array>
+</dict>
+</plist>
